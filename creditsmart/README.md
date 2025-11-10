@@ -21,7 +21,6 @@ Instrucciones:
 1. Clonar o descargar el repositorio
 2. Abrir el archivo "index.html" en el navegador de su preferencia
 3. Navegar por las páginas
-4. O en su defecto visitar un despliegue "local" con ayuda de netfly 
 
 
 Capturas:
