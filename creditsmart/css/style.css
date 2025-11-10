@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     text-align: center;
 }
 
@@ -76,6 +76,51 @@ body {
     height: 200px;      
     width: 100%;         
     object-fit: cover;   
+}
+
+.title h1 {
+    text-align: center;        
+    margin-top: 120px;         
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background-color: #f8f9fa; /* fondo claro */
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Títulos de secciones */
+.form-container h5 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Inputs y textarea */
+.form-container .form-control,
+.form-container .form-select {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Efecto al enfocar */
+.form-container .form-control:focus,
+.form-container .form-select:focus,
+.form-container textarea:focus {
+    border-color: #00bfff;
+    box-shadow: 0 0 5px rgba(0,191,255,0.5);
+}
+
+/* Botones */
+.form-container .btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
 
